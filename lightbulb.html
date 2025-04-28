@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Light Bulb Switch</title>
+</head>
+<body>
+
+<h1>JavaScript Can Change Images</h1>
+
+<img id="bulb_off" onclick="changeimage()" src="bulb_off.JPG" width="100" height="180">
+
+<p>Click the light bulb to turn on/off the light.</p>
+
+<script>
+function changeimage() {
+    var image = document.getElementById('bulb_off');
+    if (image.src.includes("bulb_off.JPG")) {
+        image.src = "bulb_on.JPG";
+    } else {
+        image.src = "bulb_off.JPG";
+    }
+}
+</script>
+
+</body>
+</html>
