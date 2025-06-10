@@ -1,4 +1,6 @@
-💡 Light Bulb Toggle Project
+Website Link - https://macdonald91.github.io/lightbulb/
+
+<h1>💡 Light Bulb Toggle Project</h1>
 A simple web project to toggle a light bulb on and off by clicking it, using pure HTML and JavaScript.
 
 📸 Preview
